@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Marketmimic_Godt"
+run/main_scene="res://Scene/Mundo.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Test_1="*res://Script/Global.gd"
 
 [rendering]
 
