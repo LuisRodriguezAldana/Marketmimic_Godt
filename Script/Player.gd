@@ -1,7 +1,8 @@
 extends CharacterBody3D
 @export var Velocidad : float
 @export var jump: float
-var gravity: float = 9.2
+@export var Mouse_Sen: float
+var gravity: float = 9.8
 func _physics_process(delta):
 	motion_contrl()
 	
